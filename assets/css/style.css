@@ -1,0 +1,294 @@
+
+#photoDeMoi{
+	max-width: 20%;
+	height: auto;
+  position: fixed;
+  z-index: 4;
+  border-radius: 50%;
+  margin-left: 2.5%;
+  margin-top: 2%;
+}
+.nav-link{
+	cursor: pointer;
+}
+.navbar {
+  background: #78A1BB;
+  z-index: 2;
+  margin-top: 2%
+}
+#navbarResponsive{
+  margin-top: 10%;
+	margin-left: 45%;
+}
+.nav-link {
+  float: right;
+  font-size: 110%;
+}
+#liseret{
+  height: 500px;
+  width: 20%;
+  background: #2F2F3A;
+  margin-left: 2%;
+  margin-top: 0.5%;
+  z-index: 3;
+}
+#nameDeux{
+  color: white;
+}
+#myName{
+  margin-top: 6%;
+  font-size: 50%;
+  margin-left: 32%;
+  font-weight: bold;
+  position: fixed;
+  z-index: 5;
+}
+#presentation{
+  margin-left: 22%;
+  padding-top: 3%;
+	text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 130%;
+}
+#experiences{
+  margin-left: 10%;
+  padding-top: 3%;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 120%;
+}
+#formations{
+  padding-top: 3%;
+  margin-left: 10%;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 120%;
+}
+.carousel-control-next-icon{
+  background-color: black;
+}
+.carousel-control-prev-icon{
+  background-color: black;
+}
+h2{
+  font-size: 150%;
+}
+.single-chart {
+  width: 10%;
+  justify-content: space-around ;
+}
+.circular-chart {
+  display: block;
+  margin: 30px auto;
+  max-width: 50%;
+  max-height: 80px;
+}
+/* couleur de niveau */
+.circular-chart .circle {
+  stroke: #01BAEF;
+}
+/* interieur cercle de niveau */
+.circle-bg {
+  fill: none;
+  stroke: #4C5C68;
+  stroke-width: 4;
+}
+/* Animation % */
+.circle {
+  fill: none;
+  stroke-width: 2;
+  stroke-linecap: round;
+  animation: progress 2s ease-out forwards;
+}
+/* Animation % */
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+/* Texte % */
+.percentage {
+  fill: #666;
+  font-family: sans-serif;
+  font-size: 70%;
+  text-anchor: middle;
+}
+/* Titre des camemberts */
+.titrecompnum{
+  text-decoration: underline;
+  font-size: 230%;
+}
+/* Slide manuel portable */
+#owl-demo .item img{
+        display: block;
+        width: 100%;
+        height: auto;
+}
+/* le camembert complet */
+.single-chart{
+  display: inline-block;
+  margin-top: 1%;
+  text-align: center;
+}
+.carlist{
+  color: black;
+}
+#competences{
+  padding-top: 1%;
+  margin-left: 20%;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 70%;
+}
+#projetNum{
+	margin-left: 40%;
+  padding-top:6%;
+  font-size: 130%;
+  font-family: 'Oswald', sans-serif;
+}
+#contacts{
+  margin-left: 25%;
+  padding-top:6%;
+  font-size: 150%;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+#adresse{
+  margin-bottom: 3%;
+}
+#telephone{
+  margin-bottom: 3%;
+}
+@media screen and (min-width: 990px) and (max-width: 1400px){
+	#liseret{
+	  display: none;
+	}
+  #nameDeux{
+    color: #2F2F3A;
+		font-size: 180%;
+  }
+	.nav-link {
+	  font-size: 85%;
+	}
+  #myName{
+    display: none;
+  }
+	#presentation{
+		margin-left: 0%;
+		text-align: center;
+		margin-top:1%;
+		font-size: 100%;
+	}
+	#experiences{
+		margin-left: 0%;
+		text-align: center;
+		margin-top: 0%;
+		font-size: 100%;
+	}
+	#formations{
+		margin-left: 0%;
+		padding-top: 2%;
+		font-size: 100%;
+	}
+	#competences{
+		margin-left: 30%;
+		padding-right: 20%;
+		padding-top: 1%;
+		font-size: 70%;
+	}
+	#projetNum{
+		margin-left: 0%;
+		padding-left: 35%;
+		font-size: 90%;
+		margin-top: 3%;
+	}
+	#contacts{
+	  margin-left: 0%;
+	  padding-top:8%;
+	  font-size: 90%;
+	  text-align: center;
+	  font-family: 'Oswald', sans-serif;
+	}
+	.titrecompnum{
+	  text-decoration: underline;
+	  font-size: 130%;
+	}
+	h2{
+	  font-size: 85%;
+	}
+	.circular-chart {
+	  display: block;
+	  margin: 30px auto;
+	  max-width: 2300%;
+	  max-height: 350px;
+	}
+	.percentage {
+		font-family: "Lucida Console", Courier, monospace;
+	  font-size: 110%;
+
+	}
+}
+@media screen and (max-width: 990px){
+	#liseret{
+	  display: none;
+	}
+  #nameDeux{
+    color: #2F2F3A;
+  }
+  #myName{
+    display: none;
+  }
+	#presentation{
+		margin-left: 0%;
+		text-align: center;
+		margin-top:10%;
+		font-size: 120%;
+	}
+	#experiences{
+		margin-left: 0%;
+		text-align: center;
+		margin-top: 15%;
+		font-size: 100%;
+	}
+	#formations{
+		margin-left: 0%;
+		padding-top: 15%;
+		font-size: 100%;
+	}
+	#competences{
+		margin-left: 0%;
+		margin-right: 10%;
+		margin-top: 10%;
+		font-size: 70%;
+	}
+	#projetNum{
+		margin-left: 0%;
+		font-size: 90%;
+		margin-top: 10%;
+	}
+	#contacts{
+	  margin-left: 0%;
+	  padding-top:20%;
+	  font-size: 90%;
+	  text-align: center;
+	  font-family: 'Oswald', sans-serif;
+	}
+	.titrecompnum{
+	  text-decoration: underline;
+	  font-size: 130%;
+	}
+	h2{
+	  font-size: 85%;
+	}
+	.circular-chart {
+	  display: block;
+	  margin: 30px auto;
+	  max-width: 2300%;
+	  max-height: 350px;
+	}
+	.percentage {
+		font-family: "Lucida Console", Courier, monospace;
+	  font-size: 110%;
+
+	}
+}
